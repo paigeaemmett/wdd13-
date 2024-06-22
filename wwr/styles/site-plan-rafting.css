@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+#fdfdec :root {
+  --primary-color: #01140e;
+  --secondary-color: #fdfdec;
+  --accent1-color: #ef8c1a;
+  --accent2-color: #4b626c;
+
+  --heading-font: "Bebas Neue", sans-serif;
+  --paragraph-font: "Fira Sans Condensed", sans-serif;
+
+  --nav-background-color: #fdfdec;
+  --nav-link-color: #ef8c1a;
+  --nav-hover-link-color: #01140e;
+  --nav-hover-background-color: #4b626c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+
+p {
+  padding: 20px;
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.4rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link,
+nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
