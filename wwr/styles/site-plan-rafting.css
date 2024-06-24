@@ -5,7 +5,7 @@ body {
   max-width: 960px;
   padding: 20px;
 }
-#fdfdec :root {
+:root {
   --primary-color: #01140e;
   --secondary-color: #fdfdec;
   --accent1-color: #ef8c1a;
