@@ -42,7 +42,7 @@ p {
 
 nav {
   background-color: var(--nav-background-color);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   display: flex;
 }
 
@@ -61,4 +61,8 @@ nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+}
+
+footer {
+  text-align: center;
 }
