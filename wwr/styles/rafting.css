@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-body {
-  font-family: var(--paragraph-font);
-  max-width: 960px;
-  padding: 20px;
-}
 :root {
   --primary-color: #01140e;
   --secondary-color: #fdfdec;
@@ -19,7 +14,7 @@ body {
   --nav-hover-link-color: #01140e;
   --nav-hover-background-color: #4b626c;
 
-  --colored-font: #01140e;
+  --colored-font: #ef8c1a;
 }
 
 h1,
@@ -29,12 +24,21 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font);
-  color: var(--primary-color);
+  color: var(--colored-font);
 }
 
-header {
-  padding: 20px;
-  background-color: var(--accent1-color);
+div.hero {
+  position: relative;
+}
+
+div.hero h1 {
+  position: absolute;
+}
+
+img.hero {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 p {
@@ -42,33 +46,20 @@ p {
   font-family: var(--paragraph-font);
 }
 
-.colored {
-  color: #ef8c1a;
-}
-
-nav {
-  background-color: var(--nav-background-color);
-  font-size: 1.2rem;
-  display: flex;
-}
-
-nav a {
-  display: block;
-  color: var(--nav-link-color);
+.sociallinks {
   text-decoration: none;
-  padding: 1rem;
+  padding: 0;
 }
 
-nav a:link,
-nav a:visited {
-  color: var(--nav-link-color);
+a:link {
+  text-decoration: none;
 }
-
-nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+a:visited {
+  text-decoration: none;
 }
-
-footer {
-  text-align: center;
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
 }
