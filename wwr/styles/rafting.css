@@ -31,18 +31,42 @@ div.hero {
   position: relative;
 }
 
-div.hero h1 {
+.hero h1 {
   position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: rgba(1 10, 7, 0.8);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
 }
 
-img.hero {
+div.hero article {
+  position: absolute;
+  top: 30%;
+  left: auto;
+  margin: 30px;
+  background-color: rgba(1 10, 7, 0.8);
+  color: var(--secondary-color);
+}
+
+.hero img {
   display: block;
   width: 100%;
   height: auto;
 }
 
+.hero article img {
+  float: right;
+  width: 220px;
+  height: auto;
+  margin: 20px;
+}
+
 p {
-  padding: 20px;
+  padding: 0;
+  margin: 20px;
   font-family: var(--paragraph-font);
 }
 
@@ -62,4 +86,8 @@ a:hover {
 }
 a:active {
   text-decoration: none;
+}
+
+footer {
+  text-align: center;
 }
