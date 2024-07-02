@@ -35,7 +35,7 @@ div.hero {
   position: absolute;
   top: 40px;
   left: 0;
-  background-color: rgba(1 10, 7, 0.8);
+  background-color: rgba(1, 10, 7, 0.8);
   margin: 0;
   padding: 0;
   width: 100%;
@@ -47,7 +47,7 @@ div.hero article {
   top: 30%;
   left: auto;
   margin: 30px;
-  background-color: rgba(1 10, 7, 0.8);
+  background-color: rgba(1, 10, 7, 0.8);
   color: var(--secondary-color);
 }
 
