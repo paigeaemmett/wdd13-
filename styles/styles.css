@@ -112,4 +112,5 @@ li a {
   padding: 1rem;
   background-color: #176fa5;
   color: #ffffff;
+  box-shadow: 0 0 20px gray;
 }
