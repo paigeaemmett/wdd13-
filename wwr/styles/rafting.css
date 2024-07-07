@@ -70,6 +70,24 @@ p {
   font-family: var(--paragraph-font);
 }
 
+.history-section {
+  display: grid;
+  grid-template-rows: 3rem 3rem 3rem;
+}
+
+.paragraph-one {
+  order: 0;
+}
+
+.paragraph-two {
+  order: 2;
+}
+
+.history-section img {
+  order: 1;
+  width: 200px;
+}
+
 .sociallinks {
   text-decoration: none;
   padding: 0;
@@ -89,5 +107,15 @@ a:active {
 }
 
 footer {
-  text-align: center;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin: 5px solid blue;
+}
+
+footer nav {
+  grid-column-start: 5;
+}
+
+footer p {
+  grid-column-start: 3;
 }
