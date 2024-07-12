@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --my-font: "Noto Serif", serif;
+  --font-color: navy;
+}
+
+h1 {
+  margin: 1rem;
+  font-size: 1.4em;
+  color: navy;
+  text-align: center;
+}
+
+body {
+  font-family: var(--my-font);
+  font-size: 1.2em;
+  color: black;
+  background: #fff;
+}
+
+.quiz-form {
+  display: block;
+  width: 650px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: rgba(218, 218, 218, 0.856);
+  border-radius: 0.5rem;
+}
+
+.quiz-form h1 {
+  text-align: center;
+}
+.quiz-form label,
+.quiz-form button {
+  display: block;
+  margin-top: 15px;
+}
+.quiz-form input[type="text"],
+.quiz-form select {
+  width: 100%;
+  padding: 5px;
+}
+.quiz-form button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 100px;
+  background-color: navy;
+  color: white;
+  border-radius: 0.5rem;
+}
+.quiz-form button:hover {
+  background-color: rgb(9, 9, 97);
+}
+
+.colored-text {
+  color: navy;
+  font-weight: bold;
+}
+
+.black-text {
+  color: black;
+}
+
+.q4-paragraph {
+  text-align: left;
+  background-color: rgb(12, 10, 10);
+  color: #fff;
+  margin: 1rem;
+  padding: 20px;
+}
