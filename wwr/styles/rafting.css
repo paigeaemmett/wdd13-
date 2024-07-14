@@ -71,21 +71,19 @@ p {
 }
 
 .history-section {
-  display: grid;
-  grid-template-rows: 3rem 3rem 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.paragraph-one {
-  order: 0;
-}
-
-.paragraph-two {
-  order: 2;
+.history-heading {
+  text-align: center;
+  font-size: xx-large;
 }
 
 .history-section img {
-  order: 1;
-  width: 200px;
+  width: auto;
+  height: auto;
 }
 
 .sociallinks {
@@ -104,6 +102,27 @@ a:hover {
 }
 a:active {
   text-decoration: none;
+}
+
+.gallery {
+  display: flex;
+  font-family: var(--paragraph-font);
+  justify-content: center;
+  margin: 2rem;
+}
+
+.gallery-heading {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.gallery img {
+  width: 250px;
+  height: auto;
+}
+
+.gallery figcaption {
+  text-align: center;
 }
 
 footer {
