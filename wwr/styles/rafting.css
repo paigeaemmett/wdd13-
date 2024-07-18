@@ -27,6 +27,49 @@ h6 {
   color: var(--colored-font);
 }
 
+header {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 120px 1fr 2fr;
+  align-items: center;
+  border-bottom: 1px solid var(--accent2-color);
+  max-width: 800px;
+}
+
+header img {
+  margin: 0 0.25rem 0 1rem;
+  width: 150px;
+  height: auto;
+}
+
+nav {
+  text-align: right;
+}
+
+.top-navigation {
+  display: flex;
+  list-style: none;
+  margin-left: 40%;
+}
+
+.top-navigation li {
+  flex: 1 1 100%;
+  justify-content: center;
+}
+
+.top-navigation a {
+  display: block;
+  color: var(--nav-link-color);
+  padding: 20px;
+  text-align: center;
+  font-size: large;
+}
+
+.top-navigation a:hover {
+  color: var(--nav-hover-link-color);
+  font-weight: 600;
+}
+
 div.hero {
   position: relative;
 }
@@ -106,6 +149,7 @@ a:active {
 
 .gallery {
   display: flex;
+  flex-wrap: wrap;
   font-family: var(--paragraph-font);
   justify-content: center;
   margin: 2rem;
