@@ -181,3 +181,97 @@ footer nav {
 footer p {
   grid-column-start: 3;
 }
+
+/* Contact Us page css */
+
+.top-page-div {
+  margin: 0 40px 0 40px;
+  padding: 0 40px 0 40px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.contact-boxes section {
+  border: 1px solid var(--accent2-color);
+  border-radius: 0.5rem;
+  margin: 10px 20px 10px 20px;
+}
+
+.contact-boxes {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  font-size: large;
+  text-align: center;
+}
+
+.contact-boxes h2 {
+  text-align: center;
+}
+
+.contact-boxes .box-1 {
+  display: block;
+}
+
+.contact-boxes .box-2 {
+  display: block;
+}
+
+.contact-boxes button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 30px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+/* map section */
+.map-heading {
+  text-align: center;
+  margin: 40px 0 0 50px;
+}
+
+.map {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  font-size: large;
+  text-align: center;
+  margin: 70px;
+}
+
+.map .text-box {
+  display: block;
+  margin-top: 10%;
+}
+
+.map .img-box {
+  display: block;
+}
+
+/* team member section */
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: var(--paragraph-font);
+  justify-content: center;
+  margin: 2rem;
+}
+
+.team-heading {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.team-photos img {
+  width: 250px;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.team-photos figcaption {
+  text-align: center;
+}
