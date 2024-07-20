@@ -347,3 +347,8 @@ input[type="checkbox"] {
 .column2 {
   grid-template-columns: 1fr 2fr;
 }
+
+.top-label {
+  font-family: var(--heading-font);
+  font-size: larger;
+}
