@@ -250,7 +250,6 @@ footer p {
 }
 
 /* team member section */
-
 .team-heading {
   text-align: center;
   font-size: xx-large;
@@ -280,7 +279,6 @@ footer p {
 }
 
 /* contact us form styling */
-
 form {
   display: grid;
   width: 600px;
@@ -358,7 +356,6 @@ input[type="checkbox"] {
 }
 
 /* Trips page table */
-
 table {
   border-collapse: collapse;
   border: 2px solid var(--primary-color);
