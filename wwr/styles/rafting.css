@@ -36,6 +36,10 @@ header {
   max-width: 800px;
 }
 
+.bold-text {
+  font-weight: bold;
+}
+
 header img {
   margin: 0 0.25rem 0 1rem;
   width: 150px;
@@ -131,11 +135,12 @@ p {
 
 .sociallinks {
   text-decoration: none;
-  padding: 0;
+  padding-top: 20px;
 }
 
 a:link {
   text-decoration: none;
+  color: var(--primary-color);
 }
 a:visited {
   text-decoration: none;
@@ -172,6 +177,7 @@ a:active {
 footer {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
+  background-color: var(--accent1-color);
 }
 
 footer nav {
@@ -185,8 +191,8 @@ footer p {
 /* Contact Us page css */
 
 .top-page-div {
-  margin: 0 40px 0 40px;
-  padding: 0 40px 0 40px;
+  margin: 0 70px 0 70px;
+  padding: 20px 90px 90px 90px;
   text-align: center;
   font-size: x-large;
 }
@@ -207,14 +213,6 @@ footer p {
 
 .contact-boxes h2 {
   text-align: center;
-}
-
-.contact-boxes .box-1 {
-  display: block;
-}
-
-.contact-boxes .box-2 {
-  display: block;
 }
 
 .contact-boxes button {
@@ -253,35 +251,41 @@ footer p {
 
 /* team member section */
 
-.team-members {
-  display: flex;
-  flex-wrap: wrap;
-  font-family: var(--paragraph-font);
-  justify-content: center;
-  margin: 2rem;
-}
-
 .team-heading {
   text-align: center;
   font-size: xx-large;
 }
 
-.team-photos img {
-  width: 250px;
-  height: auto;
-  border-radius: 0.5rem;
+.team-photos {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px;
 }
 
-.team-photos figcaption {
+.team-photos figure {
+  margin: 0;
   text-align: center;
+  font-family: var(--paragraph-font);
+  font-size: larger;
 }
 
-/* form styling */
+.team-photos img {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px var(--accent2-color);
+  margin-bottom: 10px;
+}
+
+/* contact us form styling */
 
 form {
   display: grid;
   width: 600px;
   margin: 0 auto;
+  margin-bottom: 30px;
   padding: 15px;
   border: 2px solid var(--accent2-color);
   border-radius: 10px;
@@ -351,4 +355,85 @@ input[type="checkbox"] {
 .top-label {
   font-family: var(--heading-font);
   font-size: larger;
+}
+
+/* Trips page table */
+
+table {
+  border-collapse: collapse;
+  border: 2px solid var(--primary-color);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+caption {
+  caption-side: top;
+  padding: 10px;
+  font-weight: bold;
+  font-family: var(--paragraph-font);
+}
+
+thead,
+tfoot {
+  background-color: var(--accent1-color);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+  text-align: center;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: center;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+.call-to-action {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.call-to-action h2 {
+  color: var(--accent2-color);
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+.call-to-action section {
+  font-family: var(--paragraph-font);
+  line-height: 1.5;
+}
+.call-to-action a {
+  text-decoration: none;
+}
+.call-to-action button {
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+.call-to-action button:hover {
+  background-color: var(--nav-hover-background-color);
 }
